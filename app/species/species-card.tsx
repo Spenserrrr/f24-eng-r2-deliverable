@@ -31,7 +31,7 @@ export default function SpeciesCard({ species, userId }: { species: Species; use
 
       <div className="mt-auto">
         <EditSpeciesDialog species={species} userId={userId} />
-        <SpeciesDetailDialog species={species} />
+        <SpeciesDetailDialog species={species} userId={userId} />
       </div>
     </div>
   );

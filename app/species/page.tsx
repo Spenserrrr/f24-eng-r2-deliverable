@@ -55,9 +55,6 @@ export default async function SpeciesList({ searchParams }: { searchParams: { se
         <AddSpeciesDialog userId={sessionId} />
       </div>
       <Separator className="my-4" />
-      {/* <div className="flex flex-wrap justify-center">
-        {species?.map((species) => <SpeciesCard key={species.id} species={species} userId={sessionId} />)}
-      </div> */}
       <SearchSpecies species={speciesToDisplay} searchQuery={searchQuery} userId={sessionId} />
     </>
   );
